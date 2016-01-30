@@ -1,0 +1,32 @@
+@import url('_newSCSS.css');
+
+
+
+@mixin border-property($pixels: 10px) {
+  border: $border;
+  border-radius: $pixels;
+}
+
+
+
+body {
+  background: tomato;
+
+  section {
+    ul {
+
+
+      li {
+
+        a {
+          border: 1px solid black;
+          &:hover {
+            border: none;
+            text-decoration: dashed;
+            color: blue;
+          }
+        }
+      }
+    }
+  }
+}

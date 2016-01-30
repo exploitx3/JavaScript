@@ -1,0 +1,11 @@
+@import url("_newSCSS.css");
+body {
+  background: tomato; }
+  body section ul li a {
+    border: 1px solid black; }
+    body section ul li a:hover {
+      border: none;
+      text-decoration: dashed;
+      color: blue; }
+
+/*# sourceMappingURL=styleSCSS.css.map */
