@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+main {
+    width: 500px;
+    margin: 0 auto;
+    border: solid black 2px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: right;
+    margin-right:20px;
+}
+nav {
+    margin: 10px;
+}
+input {
+    padding: 5px;
+    height: 10px;
+}
+.list {
+    text-align: right;
+}
+section {
+    width: 475px;
+    margin: 2px auto;
+    border: solid black 2px;
+}
+article {
+    width: 450px;
+    margin: 10px;
+    border: solid black 2px;
+}
+label {
+    display:inline-block;
+    width: 350px;
+    border-bottom: solid black 1px;
+}
+
+input:checked + label{
+    background-color: aquamarine;
+}
